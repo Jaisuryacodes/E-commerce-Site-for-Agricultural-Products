@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(8, 7, 7);
+}
+.Main_Box
+{ 
+    width: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 600px;
+   display: flex;
+   flex-wrap: wrap;
+    gap:1rem;
+
+}
+.content1{
+ width: 450px;
+ height: auto;
+ background-color: rgb(3, 3, 3);
+ box-shadow: 2px 2px 5px 2px  rgb(236, 253, 2);
+
+}
+.content2{
+    width: 750px;
+    height:auto;
+    background-color: rgb(9, 9, 9);
+    box-shadow: 2px 2px 5px 2px  rgb(236, 253, 2);
+    
+}
+.photo img{
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+    align-items: center;
+    margin-top:20px ;
+    margin-left: 25%;
+    box-shadow: 2px 2px 5px 2px rgb(236, 253, 2);
+
+    
+}
