@@ -1,0 +1,284 @@
+body{
+    background-image: url('../images/bg2.jpg');
+
+    background-size:cover;
+    width: 100vw;
+    align-items: end;
+    background-attachment: fixed;
+
+}
+
+p{
+    color: aliceblue;
+    background-color: rgb(130, 14, 162);
+}
+.para{
+   
+    background-color: rgb(21, 212, 40);
+    font-size: 150%;
+  padding: 5%;
+  width: 450px;
+}
+
+details{
+ 
+    position: fixed;
+    text-align: center;
+    text-align: justify;
+    right: 0;
+    top: 8;
+    margin: auto;
+    width: 120px;
+  background-color: rgb(33, 150, 165);
+    
+     border-radius: 10%;
+    transition-duration: 0.4s;
+
+
+}
+
+
+details:hover{
+    background-color:rgb(33, 150, 165);
+    color: rgb(240, 233, 240);
+    
+}
+.feedback{
+    max-width: auto;
+    background-attachment: fixed;
+    background-color: rgb(32, 50, 245);
+    padding: 8;
+    font-size: 20px;
+    border: 3px solid black;
+    height: 20px;
+    width: 80px;
+   text-align: center;
+   bottom: 10;
+    right: 40;
+    position: fixed;
+}
+#copyright{
+    max-width: auto;
+    font-size: 15px;
+    height: 20px;
+    width: 80px;
+   text-align: center;
+  top: 700px;
+     color: rgb(248, 244, 244);
+     left: 0%;
+    position: absolute;
+}
+a{
+   
+    width: 120px;
+    height: 5px;
+    text-align: center;
+    text-decoration: none;
+    size: 10px;
+    color: rgb(243, 248, 244);
+    font-style: italic;
+    align-items: self-end;
+      
+}
+a:hover{
+   
+    color: blue;
+}
+.searchbox{ 
+    margin: auto;
+    position: absolute;
+   left: 80;
+   height: 20px;
+   size: 100px;
+  width: 100%;
+}
+fieldset{
+    font-size: 18px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+           top: 180;
+           left: 450;   
+         background-color: gray;
+    color: white;     
+    transition: 1.5s;     
+}
+fieldset:hover{
+    background-color: transparent;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(66, 183, 142);
+    transition: 0.5s;
+}
+input:hover{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(237, 250, 250);
+
+}
+label{
+    margin-top: 15px;
+    min-width: 100px;
+    margin-left: 10px;
+}
+
+fieldset .name-class,.pass-class{
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+#forgetpass{
+    
+    font-size: 15px;
+    width: 100px;
+   
+    display: inline;
+}
+#forgetpass:hover{
+    font-size: 15px;
+    width: 100px;
+  
+ 
+    height: 20px;
+    
+    color: rgb(230, 235, 229);
+
+    display: inline;
+}
+
+.proimg{
+    position:fixed;
+    align-items: center;
+    border-radius: 50%;
+    width: 15%;
+
+
+
+}
+.upsign{
+    background-color: rgb(21, 212, 40);
+    font-size: 150%; 
+    width: 380px;
+    position: fixed;
+    top: 250;
+    left: 450;   
+    z-index: 99; 
+}
+header{
+    position:fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    border:2px solid gray;
+   background-color: gray;
+}
+
+
+
+
+.nav{
+ max-width: 1200px;
+ margin: auto;
+ width: 15%;
+ height: 50px;
+ display: flex;
+ text-decoration: none;
+ color: aliceblue;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.userlog
+{
+    font-size: 18px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+           top: 180;
+           left: 450;   
+         background-color: gray;
+    color: white;     
+    transition: background 1.5s;
+}
+.userlog:hover{
+background-color: transparent;
+border-radius: 10px;
+
+}
+.btn-container{
+    margin: 0 auto;
+    width: 90px;
+    height: 30px;
+    /* background: #333; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;   
+}
+.btn-container button{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    margin: auto;
+    width: 60%;
+    height: 25px;
+    background-color: rgb(109, 22, 240);
+    font-size: 12px;
+    transition: 0.5s;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    margin: auto;
+    width: 60%;
+    height: 25%px;
+    background-color: rgb(3, 123, 9);
+    font-size: 12px;
+}
+.usercontent{
+    max-width: auto;
+ 
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 70px;
+    gap: 5rem;
+    margin-left: 22%;
+    margin-right: 25%;
+}
+.usercontentcard{
+    margin-left:10px;
+    margin-right:10 px;
+    width: 280px;
+    background-color: gray;
+    padding: 10px;
+ 
+    height: 250px;
+   margin-top: 80px;
+    display: flex;
+    border-radius: 10px;
+  transition: background 0.1s;
+}
+.usercontentcard:hover{
+background-color:green;
+}
+#usercontentimg{
+transition: background 1.5s;
+text-align: center;
+}
+#usercontentimg,a:hover{
+ margin-left: 15px;
+
+ color: aliceblue;
+}

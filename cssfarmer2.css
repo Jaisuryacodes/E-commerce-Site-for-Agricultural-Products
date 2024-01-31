@@ -1,0 +1,48 @@
+.profiledetails{
+position: absolute;
+left: 25%;
+color: aliceblue;
+background-color: gray;
+padding: 2%;
+}
+.maincontent{
+    max-width: auto;
+    height: 200px;
+    width:400px;
+    align-items:center;
+    left: 100px;
+    padding-left: 50px;
+    background-color: darkcyan;
+    top: 200;
+    border: 2px solid gray;
+  padding-top: 20px;   
+        
+}
+.preimg{
+    
+   background-color: aliceblue;
+   border: 5px solid rgb(107, 109, 107);
+     padding: 24px;
+     padding-top: 5%;
+     padding-left: 2%;
+     padding-right: 2%;
+     width: 300px;
+     display: flex;
+     gap: 2rem;
+}
+.card{
+   max-width: auto;
+    position: absolute;
+    display: flex;
+    gap: 5rem;
+
+}
+.card2{
+    max-width: auto;
+    
+     top: 400px;
+     position: absolute;
+     display: flex;
+     gap: 5rem;
+ 
+ }
